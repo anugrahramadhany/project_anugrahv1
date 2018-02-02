@@ -1,0 +1,94 @@
+
+
+
+
+<!-- HEADER -->
+
+<div class="jumbotron">
+<div class="container text-center">
+  <h1>img</h1>      
+  <p></p>
+</div>
+</div>
+
+<!-- Article thumb -->
+<div class="row">
+  <div class="col-sm-6 col-md-4" *ngFor="let a of articleList">
+    <div class="thumbnail">
+      <img src="{{a.articleimages}}" class="img-responsive" style="width:100%" alt="Image">
+      <div class="caption"> -->
+        <!--  <h1>{{a.title}}</h1> -->
+        
+        <p><a class="btn btn-primary"routerLink="articledetail/:id" role="button">View Article</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <div class="container" *ngFor="let a of articleList">
+  <img src="{{a.articleimages}}" alt="Notebook" style="width:100%;">
+  <div class="content">
+    <a routerLink="/articledetail/:id">{{a.excerpt}}</a>
+    <p>Lorem ipsum..</p>
+  </div>
+</div> -->
+
+
+
+
+<!-- <div class="container-fluid bg-3 text-center">    
+<h3>whats new</h3><br>
+<div class="row">
+  <div class="col-sm-3" *ngFor="let a of articleList">  
+    <p>{{a.title}}</p>
+    <p>{{a.excerpt}}</p>
+    <img src="{{a.articleimages}}" class="img-responsive" style="width:100%" alt="Image">
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- footer -->
+<!-- <footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
